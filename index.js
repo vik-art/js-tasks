@@ -1,8 +1,3 @@
-function findFrequency(arr) {
-return arr.reduce((prev, curr) => {
-    return prev[curr] ? prev[curr] ++ : prev[curr] = 1, prev
-}, {})
-}
 
 
 const flatten = (arr) => {
